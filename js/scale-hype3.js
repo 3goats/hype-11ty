@@ -1,7 +1,4 @@
 function layoutRequest(hypeDocument, element, event) {
-  
-   	var hypeDocEl = document.getElementById(hypeDocument.documentId());
-
     //returns [{name: xxx; height:xxx; width:xxx; breakpoint: xxx}, ...]
     var _layouts = hypeDocument.layoutsForSceneNamed(hypeDocument.currentSceneName());
     //current Layoutname
@@ -19,24 +16,20 @@ function layoutRequest(hypeDocument, element, event) {
     }
 
 
+    // set hypeDocumentElement height depending on layoutratio ... 
     if (res) {
-	var wWidth =  window.innerWidth ||  (window.document.documentElement.clientWidth || window.document.body.clientWidth);
-	
-	var baseLayoutWidth = res['width'];
+      var ratioScale = res['width'] / res['height'];
+      var hypeEl = document.getElementById(hypeDocument.documentId());
+      var currentWidth = hypeEl.offsetWidth;
+      var newHeight = currentWidth / ratioScale;
+      hypeEl.style.height = newHeight + 'px';
 
-	var scaleFactor = (wWidth/baseLayoutWidth);
-	//hypeDocEl.style.position = 'absolute'; RE
-	hypeDocEl.style.transformOrigin = "left top";
-	hypeDocEl.style.WebkitTransformOrigin = "left top";
-	hypeDocEl.style.msTransformOrigin = "left top";
 
-	hypeDocEl.style.transform = "scaleX(" + scaleFactor +  ") scaleY(" + scaleFactor + ")";
-	hypeDocEl.style.WebkitTransform = "scaleX(" + scaleFactor +  ") scaleY(" + scaleFactor + ")";
-	hypeDocEl.style.msTransform = "scaleX(" + scaleFactor +  ") scaleY(" + scaleFactor + ")";
+      hypeDocument.relayoutIfNecessary();
     }
 
 
-hypeDocument.relayoutIfNecessary()
+
 
     return false
 
