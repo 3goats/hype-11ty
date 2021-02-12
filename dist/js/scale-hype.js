@@ -25,11 +25,7 @@ function layoutRequest(hypeDocument, element, event) {
 	var baseLayoutWidth = res['width'];
 
 	var scaleFactor = (wWidth/baseLayoutWidth);
-<<<<<<< HEAD
 	//hypeDocEl.style.position = 'absolute'; RE
-=======
-//	hypeDocEl.style.position = 'absolute';
->>>>>>> 01299afc5fd3fe8ad1d02bb9eeecac0832ce9fd9
 	hypeDocEl.style.transformOrigin = "left top";
 	hypeDocEl.style.WebkitTransformOrigin = "left top";
 	hypeDocEl.style.msTransformOrigin = "left top";
