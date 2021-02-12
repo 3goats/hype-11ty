@@ -14,9 +14,10 @@ Running is a method of terrestrial locomotion allowing humans and other animals 
 
 Running is a type of gait characterized by an aerial phase in which all feet are above the ground. This is in contrast to walking, where one foot is always in contact with the ground, the legs are kept mostly straight and the center of gravity vaults over the stance leg or legs in an inverted pendulum fashion. A characteristic feature of a running body from the viewpoint of spring-mass mechanics is that changes in kinetic and potential energy within a stride occur simultaneously, with energy storage accomplished by springy tendons and passive muscle elasticity. The term running can refer to any of a variety of speeds ranging from jogging to sprinting.
 
+
 <div id="venafiintegrations_hype_container" class="HYPE_document" style="margin:auto;position:relative;width:1500px;height:800px;overflow:hidden;">
-<script type="text/javascript" charset="utf-8" src="/animations/Venafi-Integrations.hyperesources/venafiintegrations_hype_generated_script.js?55179"></script>
-                </div>
+		<script type="text/javascript" charset="utf-8" src="/animations/Venafi-Integrations.hyperesources/venafiintegrations_hype_generated_script.js?57262"></script>
+</div>
 
 It is assumed that the ancestors of mankind developed the ability to run for long distances about 2.6 million years ago, probably in order to hunt animals. Competitive running grew out of religious festivals in various areas. Records of competitive racing date back to the Tailteann Games in Ireland in 1829 BCE,[citation needed] while the first recorded Olympic Games took place in 776 BCE. Running has been described as the world’s most accessible sport.
 
