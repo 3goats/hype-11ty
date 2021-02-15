@@ -7,6 +7,8 @@ excerpt: Running is a method of terrestrial locomotion allowing humans and other
 tags:
     - blog
     - health
+animation_script: /animations/Venafi-Integrations.hyperesources/venafiintegrations_hype_generated_script.js
+
 ---
 
 Running is a method of terrestrial locomotion allowing humans and other animals to move rapidly on foot. This is in contrast to walking, where one foot is always in contact with the ground, the legs are kept mostly straight.
@@ -14,16 +16,10 @@ Running is a method of terrestrial locomotion allowing humans and other animals 
 
 Running is a type of gait characterized by an aerial phase in which all feet are above the ground. This is in contrast to walking, where one foot is always in contact with the ground, the legs are kept mostly straight and the center of gravity vaults over the stance leg or legs in an inverted pendulum fashion. A characteristic feature of a running body from the viewpoint of spring-mass mechanics is that changes in kinetic and potential energy within a stride occur simultaneously, with energy storage accomplished by springy tendons and passive muscle elasticity. The term running can refer to any of a variety of speeds ranging from jogging to sprinting.
 
-
-
-
-<div class="container mx-auto">
-
-  <div id="venafiintegrations_hype_container" class="HYPE_document" style="margin:auto;position:relative;width:500;height:650px;overflow:hidden;">
-		<script type="text/javascript" charset="utf-8" src="/animations/Venafi-Integrations.hyperesources/venafiintegrations_hype_generated_script.js?18914"></script>
-	</div>
-
-</div>
+<aside>
+  <h2>Option 2: <code>shortcode</code></h2>
+  {% animation_script_code animation_script %}
+</aside>
 
 It is assumed that the ancestors of mankind developed the ability to run for long distances about 2.6 million years ago, probably in order to hunt animals. Competitive running grew out of religious festivals in various areas. Records of competitive racing date back to the Tailteann Games in Ireland in 1829 BCE,[citation needed] while the first recorded Olympic Games took place in 776 BCE. Running has been described as the world’s most accessible sport.
 
@@ -39,3 +35,8 @@ The theory proposed considered to be the most likely evolution of running is of 
 While there exists the potential for injury while running, possible strengthening of the immune system and an improved self-esteem and emotional state. Running, like all forms of regular exercise can effectively slow or reverse the effects of aging.
 
 Whereby an optimal amount of vigorous aerobic exercise such as running might bring benefits related to lower cardiovascular disease and life extension, it should be noted that in an excessive dose it might have an opposite effect associated with cardiotoxicity.
+
+<aside>
+  <h2>Option 2: <code>shortcode</code></h2>
+  {% animation_script_code animation_script %}
+</aside>

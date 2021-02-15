@@ -2,6 +2,19 @@ const htmlmin = require("html-minifier")
 
 module.exports = eleventyConfig => {
 
+    eleventyConfig.addShortcode(
+        "animation_script_code",
+        (animation_script_href = "") => {
+          return `<div class="container mx-auto">
+            <div id="venafiintegrations_hype_container" class="HYPE_document" style="margin:auto;position:relative;width:500;height:650px;overflow:hidden;">
+              <script type="text/javascript" charset="utf-8" src="${animation_script_href}"></script>
+            </div>
+          </div>`;
+        }
+      );
+    
+      
+
     // Add a readable date formatter filter to Nunjucks
     eleventyConfig.addFilter("dateDisplay", require("./filters/dates.js"))
 
@@ -65,5 +78,7 @@ module.exports = eleventyConfig => {
             data: 'globals'
         }
     }
-
+    
+        
+      
 }
